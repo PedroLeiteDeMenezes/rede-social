@@ -73,10 +73,10 @@ cd repo-name
 npm install
 
 ### Configure suas variáveis de ambiente. Crie um arquivo .env na raiz do projeto com as seguintes informações:
-DATABASE_HOST=localhost
-DATABASE_USER=root
-DATABASE_PASSWORD=sua_senha
-DATABASE_NAME=rede_social
+# DATABASE_HOST=localhost
+# DATABASE_USER=root
+# DATABASE_PASSWORD=sua_senha
+# DATABASE_NAME=rede_social
 ### Execute as migrations para criar as tabelas no banco de dados:
 npx sequelize db:migrate
 ### Inicie o servidor:
