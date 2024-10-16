@@ -53,6 +53,9 @@ src/
 │
 ├── validations/
 │   └── postValidation.js      # Validações para operações em postagens
+|   └── likeValidation.js      # Validações para operações em like
+|   └── userValidation.js      # Validações para operações em Usuario
+|   └── commentsValidation.js  # Validações para operações em comentarios
 │
 └── app.js                     # Arquivo principal da aplicação
 ```
@@ -85,12 +88,12 @@ A API estará rodando em http://localhost:3000.
 
 ## Uso
 Rotas Disponíveis
-POST /posts - Criar uma nova postagem.
-GET /posts/:id - Buscar uma postagem por ID.
-PUT /posts/:id - Atualizar uma postagem.
-DELETE /posts/:id - Deletar uma postagem.
-POST /posts/:id/like - Curtir ou remover curtida de uma postagem.
-POST /posts/:id/comment - Comentar em uma postagem.
+#### POST /posts - Criar uma nova postagem.
+#### GET /posts/:id - Buscar uma postagem por ID.
+#### PUT /posts/:id - Atualizar uma postagem.
+#### DELETE /posts/:id - Deletar uma postagem.
+#### POST /posts/:id/like - Curtir ou remover curtida de uma postagem.
+#### POST /posts/:id/comment - Comentar em uma postagem.
 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou criar uma issue com sugestões ou problemas encontrados.
 
