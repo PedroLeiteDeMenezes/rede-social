@@ -1,6 +1,6 @@
 # Rede Social API
 
-Este projeto é uma API para uma rede social, desenvolvida utilizando **Node.js**, **Express** e **Sequelize** com o banco de dados **MariaDB**. O sistema permite interações como criação de postagens, comentários e curtidas, com validações robustas para garantir a integridade dessas ações. O frontend foi desenvolvido com **React**, proporcionando uma experiência de usuário dinâmica e responsiva.
+Este projeto é uma API para uma rede social, desenvolvida utilizando **Node.js**, **Express** e **Sequelize** com o banco de dados **MariaDB**. O sistema permite interações como criação de postagens, comentários e curtidas, com validações robustas para garantir a integridade dessas ações. O frontend sera desenvolvido com **React**, proporcionando uma experiência de usuário dinâmica e responsiva.
 
 ## Funcionalidades
 
